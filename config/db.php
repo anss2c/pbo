@@ -2,9 +2,9 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=172.23.0.1;dbname=project_pabo',
-    'username' => 'root',
-    'password' => 'admin',
+    'dsn' => 'mysql:host=us-cdbr-east-02.cleardb.com;dbname=heroku_cbfa5c31c11a741',
+    'username' => 'b3d1313474ee5c',
+    'password' => '7409aefa',
     'charset' => 'utf8',
 
     // Schema cache options (for production environment)
