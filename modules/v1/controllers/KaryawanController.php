@@ -12,7 +12,12 @@ use yii\rest\ActiveController;
 class KaryawanController extends ActiveController
 {
     public $modelClass = 'app\models\Karyawan';
-	
+	public function behaviors()
+    {
+        $behaviors = parent::behaviors();
+        $behaviors = BehaviorsFromParamsHelper::behaviors($behaviors);
+        return $behaviors;
+    }
     
      
 }
