@@ -1,5 +1,4 @@
 <?php
-
 return [
     'class' => 'yii\db\Connection',
     'dsn' => 'mysql:host=us-cdbr-east-02.cleardb.com;dbname=heroku_cbfa5c31c11a741',
